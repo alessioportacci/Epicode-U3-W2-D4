@@ -1,0 +1,13 @@
+<h1>inactive-post works!</h1>
+
+<div class="row row-cols-2" *ngFor="let post of posts | async">
+  <div class="col card" *ngIf="!post.active">
+    <div class="card-header">{{ post.titolo }}</div>
+    <div class="card-body">
+      <h5 class="card-title">{{ post.titolo }}</h5>
+      <p class="card-text">
+        {{ post.descrizione }}
+      </p>
+    </div>
+  </div>
+</div>

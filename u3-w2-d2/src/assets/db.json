@@ -1,0 +1,7 @@
+[
+  {"id":1, "titolo":"Post 1", "descrizione": "descrizione 1", "active":true},
+  {"id":2, "titolo":"Post 2", "descrizione": "descrizione 2", "active":true},
+  {"id":3, "titolo":"Post 3", "descrizione": "descrizione 3", "active":false},
+  {"id":4, "titolo":"Post 4", "descrizione": "descrizione 4", "active":true},
+  {"id":5, "titolo":"Post 5", "descrizione": "descrizione 5", "active":false}
+]
