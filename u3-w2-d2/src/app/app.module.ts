@@ -7,6 +7,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { ActivePostComponent } from './components/pages/active-post/active-post.component';
 import { InactivePostComponent } from './components/pages/inactive-post/inactive-post.component';
 import { PostComponent } from './components/post/post.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PostComponent } from './components/post/post.component';
     HomeComponent,
     ActivePostComponent,
     InactivePostComponent,
-    PostComponent
+    PostComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
